@@ -7,42 +7,32 @@
     width: 100%;
     height: 100vh;
     background-color:  #a2cffe;
-    /* background-image: url(Images/backgroud-image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .main-div {
      width: 100%;
     height: 100vh;
-    /*
-    background-color: #fff;
-    
-    border-radius: 5px; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; */
-
 }
 
 .tool-bar {
     /* border-top-left-radius: 5px;
     border-top-right-radius: 5px; */
-    width: 100%;
+    width: 85%;
+    /* width: 795px; */
     height: 90px;
     background-color: aliceblue;
+    display: flex;
+    justify-content: center;
 }
 
 .text-style {
-    width: 26%;
+    width: 50%;
     height: 80px;
-    background-color: rgb(221, 186, 141);
+    /* background-color: rgb(221, 186, 141); */
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .font-family {
@@ -56,6 +46,7 @@
     font-size: 16px;
     color: #000;
     outline: none;
+    width: 250px;
 }
 
 .input-style:focus {
@@ -190,6 +181,7 @@
 
 
 .body{
+    /* width: 795px; */
     width: 85%;
     height: 85.6vh;
     background-color: aqua;
@@ -209,7 +201,7 @@
 
 .font-size{
     font-size: 14px;
-    width: 40px;
+    width: 110px;
     height: 25px;
 }
 
@@ -225,6 +217,30 @@
 }
 
 .font-color{
-    width: 30px;
+    margin-top: 5px;
+    width: 100px;
     height: 25px;
 }
+
+.font-case{
+    text-align: center;
+    width: 95%;
+    height: 95%;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .tool-bar{
+        height: 123px;
+    }
+  }
+
+@media only screen and (max-width: 455px) {
+    .tool-bar{
+        justify-content: flex-start;
+    }
+
+    .tool-bar , .body{
+        width: 100%;
+    }
+  }
