@@ -152,9 +152,100 @@ function forFontSize(){
 
 }
 
-function forFontIncOrDec(){
-    bodyTxt.style.fontSize = ++abc
-    var abc = window.getComputedStyle(bodyTxt,null).getPropertyValue("font-size");    
-    console.log(abc)
-    
+var bold = document.getElementById("for-bold");
+bold.value = "";
+
+function forBold(){
+    if(bold.value == ""){
+        bodyTxt.style.fontWeight = "Bold";
+        bold.style.backgroundColor = "#000";
+        bold.innerHTML = "<i class='fa-solid fa-bold' style='color: #f0f2f5;'></i>";
+        bold.value = "bold"
+    }else{
+        bodyTxt.style.fontWeight = "400";
+        bold.style.backgroundColor = "#fff";
+        bold.innerHTML = "<i class='fa-solid fa-bold'></i>";
+        bold.value = "";
+    }
+}
+
+var italic = document.getElementById("for-italic");
+italic.value = "";
+
+function forItalic(){
+    if(italic.value == ""){
+        console.log("if")
+        bodyTxt.style.fontStyle = "italic";
+        italic.style.backgroundColor = "#000";
+        italic.innerHTML = "<i class='fa-solid fa-italic' style='color: #f0f2f5;'></i>";
+        italic.value = "italic"
+    }else{
+        console.log("else")
+        bodyTxt.style.fontStyle = "normal";
+        italic.style.backgroundColor = "#fff";
+        italic.innerHTML = "<i class='fa-solid fa-italic'></i>";
+        italic.value = "";
+    }
+}
+
+var underLine = document.getElementById("for-underline");
+underLine.value = "";
+
+function forUnderLine(){
+    if(underLine.value == ""){
+        console.log("if")
+        bodyTxt.style.textDecoration = "underline";
+        underLine.style.backgroundColor = "#000";
+        underLine.innerHTML = "<i class='fa-solid fa-underline' style='color: #f0f2f5;'></i>";
+        underLine.value = "underLine"
+    }else{
+        console.log("else")
+        bodyTxt.style.textDecoration = "none";
+        underLine.style.backgroundColor = "#fff";
+        underLine.innerHTML = "<i class='fa-solid fa-underline'></i>";
+        underLine.value = "";
+    }
+}
+
+var strikeThrough = document.getElementById("for-strike");
+strikeThrough.value = "";
+
+function forStrikeThrough(){
+    if(strikeThrough.value == ""){
+        console.log("if")
+        bodyTxt.style.textDecoration = "line-through";
+        strikeThrough.style.backgroundColor = "#000";
+        strikeThrough.innerHTML = "<i class='fa-solid fa-strikethrough' style='color: #f0f2f5;'></i>";
+        strikeThrough.value = "strikeThrough"
+    }else{
+        console.log("else")
+        bodyTxt.style.textDecoration = "none";
+        strikeThrough.style.backgroundColor = "#fff";
+        strikeThrough.innerHTML = "<i class='fa-solid fa-strikethrough'></i>";
+        strikeThrough.value = "";
+    }
+}
+
+var forCase = document.getElementById("for-case");
+forCase.value = "";
+
+function forCase(){
+    if(forCase.value == ""){
+        console.log("if")
+        bodyTxt.style.textTransform = "capitalize";
+        forCase.style.backgroundColor = "#000";
+        forCase.innerHTML = "<i class='fa-solid fa-font-case' style='color: #f0f2f5;'></i>";
+        forCase.value = "forCase"
+    }else{
+        console.log("else")
+        bodyTxt.style.textTransform = "none";
+        forCase.style.backgroundColor = "#fff";
+        forCase.innerHTML = "<i class='fa-solid fa-font-case'></i>";
+        forCase.value = "";
+    }
+}
+
+var fontColor = document.getElementById("font-color");
+function forFontColor(){
+    bodyTxt.style.color = fontColor.value;
 }
