@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bad+Script&family=Bangers&family=Bruno+Ace&family=Caveat&family=Dancing+Script&family=Great+Vibes&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Kalam:wght@300&family=Lobster&family=Lobster+Two&family=Mogra&family=Noto+Nastaliq+Urdu&family=Noto+Sans+Arabic&family=Orbitron&family=Oswald&family=Poppins&family=Righteous&family=Roboto&family=Rock+Salt&family=Rubik+Moonrocks&family=Satisfy&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="background-div">
+        <div class="main-div">
+            <div class="tool-bar">
+                <div class="text-style">
+                    <form action="">
+                        <select name="font-family" class="font-family input-style" id="font-family" onchange="forFontFamily()">
+                            <option value="calibri" class="calibri" selected>Calibri</option>
+                            <option value="arial" class="arial" >Arial</option>
+                            <option value="times-new-roman" class="times new roman">Times New Roman</option>
+                            <option value="courier-new" class="courier-new">Courier New</option>
+                            <option value="georgia" class="georgia">Georgia</option>
+                            <option value="cambria" class="cambria">Cambria</option>
+                            <option value="segoe-ui" class="segoe-ui">Segoe UI</option>
+                            <option value="josefin-sans" class="josefin-sans">Josefin Sans</option>
+                            <option value="roboto" class="robotto">Roboto</option>
+                            <option value="oswald" class="oswald">Oswald</option>
+                            <option value="poppins" class="popins">Poppins</option>
+                            <option value="dancing-script" class="dancing-script">Dancing Script</option>
+                            <option value="righteous" class="righteous">Righteous</option>
+                            <option value="caveat" class="caveat">Caveat</option>
+                            <option value="abril-fatface" class="abril-fatface">Abril Fatface</option>
+                            <option value="mogra" class="mogra">Mogra</option>
+                            <option value="noto-nastaliq-urdu" class="noto-nastaliq-urdu">اردو</option>
+                            <option value="noto-sans-arabic" class="noto-sans-arabic">عربي</option>
+                            <option value="indie-flower" class="indie-flower">Indie Flower</option>
+                            <option value="satisfy" class="satisfy">Satisfy</option>
+                            <option value="orbitron" class="orbitron">Orbitron</option>
+                            <option value="bruno-ace" class="bruno-ace">Bruno Ace</option>
+                            <option value="bangers" class="bangers">Bangers</option>
+                            <option value="kalam" class="kalam">Kalam</option>
+                            <option value="lobster" class="lobster">Lobster</option>
+                            <option value="lobster-two" class="lobster-two">Lobster Two</option>
+                            <option value="great-vibes" class="great-vibes">Great Vibes</option>
+                            <option value="rubik-moonrocks" class="rubik-moonrocks">Rubik Moonrocks</option>
+                            <option value="bad-script" class="bad-script">Bad Script</option>
+                            <option value="share-tech-mono" class="share-tech-mono">Share Tech Mono</option>
+                            <option value="rock-salt" class="rock-salt">Rock Salt</option>
+                        </select>
+                        <select name="font-size" id="font-size" class="font-size input-style" onchange="forFontSize()">
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11" selected>11</option>
+                            <option value="12">12</option>
+                            <option value="14">14</option>
+                            <option value="16">16</option>
+                            <option value="18">18</option>
+                            <option value="20">20</option>
+                            <option value="22">22</option>
+                            <option value="24">24</option>
+                            <option value="26">26</option>
+                            <option value="28">28</option>
+                            <option value="36">36</option>
+                            <option value="48">48</option>
+                            <option value="72">72</option>
+                        </select>
+                        <a class="font-size-inc" id="font-size-inc" onclick="forFontIncOrDec()"></a>
+                        <a class="font-size-dec" id="font-size-dec"></a>
+                    </form>
+                </div>
+            </div>
+            <div class="body">
+                <textarea name="body-txt" class="body-txt" id="body-txt"></textarea>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

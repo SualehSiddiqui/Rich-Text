@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-div {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/backgroud-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div {
+    width: 85%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.tool-bar {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 90px;
+    background-color: aliceblue;
+}
+
+.text-style {
+    width: 26%;
+    height: 80px;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+.font-family {
+    width: 120px;
+    height: 25px;
+}
+
+.input-style {
+    border: 1px solid #1f1d1d;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+    outline: none;
+}
+
+.input-style:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.calibri {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.courier-new {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cambria {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.segoe-ui {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.josefin-sans {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.robotto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.popins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+
+.abril-fatface {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.mogra {
+    font-family: 'Mogra', cursive;
+}
+
+.noto-nastaliq-urdu{
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.noto-sans-arabic {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+.indie-flower {
+    font-family: 'Indie Flower', cursive;
+}
+
+.satisfy {
+    font-family: 'Satisfy', cursive;
+}
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.bruno-ace {
+    font-family: 'Bruno Ace', cursive;
+}
+
+.bangers {
+    font-family: 'Bangers', cursive;
+}
+
+.kalam {
+    font-family: 'Kalam', cursive;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+}
+
+.lobster-two {
+    font-family: 'Lobster Two', cursive;
+}
+
+.great-vibes {
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.rubik-moonrocks{
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.bad-script {
+    font-family: 'Bad Script', cursive;
+}
+
+.share-tech-mono {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.rock-salt {
+    font-family: 'Rock Salt', cursive;
+}
+
+
+.body{
+    width: 100%;
+    height: 350px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-txt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    resize: none;
+    padding: 20px;
+    width: 90%;
+    height: 80%;
+}
+
+.font-size{
+    font-size: 14px;
+    width: 40px;
+    height: 25px;
+}
+
+.font-size-inc, .font-size-dec{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.font-size-inc:focus, .font-size-dec:focus{
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.font-size-inc{
+    font-size: 18px;
+}
+
+.font-size-dec{
+    font-size: 12px;
+}
